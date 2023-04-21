@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - To detremine if the number is positive, negative or zero
+ * main - To detremine if the number is positive,negative or zero
  *
- * Return Always 0 (Success)
+ * Description: To determine if the number is positive, zero or negative
+ * Return: Always 0 (Success)
  */
 
 int main(void)
