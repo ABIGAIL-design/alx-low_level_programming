@@ -5,7 +5,7 @@
 /**
  * main - To detremine if the number is positive, negative or zero
  *
- * Return Always 0(Success)
+ * Return Always 0 (Success)
  */
 
 /* betty style doc for function main goes there */
