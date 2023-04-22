@@ -2,15 +2,20 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main - alphabet in lowercase
+ * Description: alphabet in lowercase
+ * Return: 0
+ */
 int main(void)
 {
-	char letter = 'a';
+int n  = 97;
 
-	while ( letter <= 'z')
-	{
-	    putchar ( letter);
-	    letter++;
-	    putchar("\n");
-	}
-	 return (0);
+while (n <= 122)
+{
+putchar(n);
+n++;
+}
+putchar('\n');
+return (0);
 }
