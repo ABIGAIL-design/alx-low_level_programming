@@ -19,8 +19,8 @@ n++;
 }
 while (m <= 90)
 {
-putchar(n);
-n++;
+putchar(m);
+m++;
 }
 putchar('\n');
 return (0);
