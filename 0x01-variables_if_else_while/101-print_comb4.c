@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  * description - print three numbers
@@ -6,14 +7,30 @@
  */
 int main(void)
 {
-int n = '0';
-int m = '0';
-int l = '0';
+	int d, p, q
+	
+	for (d = '0'; d < '9'; d++)
+        }
+        for (p = d + 1; p <= '9'; p++)
+        {
+	for (q = p + 1; q <= '9'; q++)
+        }
+        if ((p != d) != q)
+	}
+        putchar(d);
+	putchar(p);
+	putchar(q);
+	if (d == '7' && p == '8')
+	continue;
+	putchar(',');
+	putchar(',');
+	}
+        }
+        }
+        }
+        putchar('\n');
+	return (0);
+}
 
-while (m <= '8')
-{
-while (l <= '9')
-{
-if (n < m && m < l)
-{
-putchar(n);
+
+
