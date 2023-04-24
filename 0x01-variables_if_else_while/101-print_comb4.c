@@ -1,36 +1,36 @@
 #include <stdio.h>
-
 /**
- * main - entry point
- * description - print three numbers
+ * main - prints out all possible combos of 3 digits
  * Return: 0
  */
 int main(void)
 {
-	int d, p, q
-	
-	for (d = '0'; d < '9'; d++)
-        }
-        for (p = d + 1; p <= '9'; p++)
-        {
-	for (q = p + 1; q <= '9'; q++)
-        }
-        if ((p != d) != q)
-	}
-        putchar(d);
-	putchar(p);
-	putchar(q);
-	if (d == '7' && p == '8')
-	continue;
-	putchar(',');
-	putchar(',');
-	}
-        }
-        }
-        }
-        putchar('\n');
-	return (0);
+int i, j, k;
+for (i = 48; i < 58; i++)
+{
+for (j = i; j < 58; j++)
+{
+for (k = j; k < 58; k++)
+{
+if (i == j || j == k || i == k)
+{
+continue;
 }
-
-
-
+putchar(i);
+putchar(j);
+putchar(k);
+if (i == 55 && j == 56 && k == 57)
+{
+break;
+}
+else
+{
+putchar(',');
+putchar(' ');
+}
+}
+}
+}
+putchar('\n');
+return (0);
+}
