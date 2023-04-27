@@ -12,7 +12,7 @@ i = 0;
 /**
 * main - causes an infinite loop
 * Description: causes an infinite loop
-* @\o/\n: Infinite loop avoided!
+* @\\o/\n: Infinite loop avoided
 *while (i < 10)
 *{
 *       putchar(i);
