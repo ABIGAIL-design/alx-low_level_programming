@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
- /**
- *  print_diagsums -  a function that prints sums of diagonals in matrix
- *  @a: matrix
- *  @size: size of matrix
- */
+/**
+*   print_diagsums - print sums of diagonals in matrix
+*    @a: matrix
+*     @size: size of matrix
+*/
 
 void print_diagsums(int *a, int size)
 {
